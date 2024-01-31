@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ada's Assignment</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <section class="bio">
+      <img src="./assets/images/myTwitterImage.jpg" alt="Image loading" />
+      <h1>Hi there, Welcome to my Page!</h1>
+      <br />
+      <p>
+        My name's Chuwku Joseph Chukwuebuka, pretty long right? you can call me
+        WaRRior... <br />
+        I'm from Awgu LGA of Enugu state, I came to learn about Enugu SME
+        program with AltSchool and thought this is a huge opportunity for me to
+        get my dream skill; wanted this skill since day 1...
+      </p>
+      <h2 class="Experience">My Experience so far</h2>
+      <br />
+      <p>
+        It's been an amazing Experience right fro day 1,starting from the very
+        basic to the point we at now; at some point I felt like we were just
+        doing some kind of way too easy stuff, but then stuff began to unfold
+        bit by bit and I'm enjoying every tittle of improvement,every single
+        puzzle I spent time on, the conversations and fun theat comes with with
+        learning with my peers and the tutors that strive to carry everyone
+        along...
+      </p>
+      <p>I'm super grateful to Enugu SME for giving us this opportunity!</p>
+    </section>
+
+    <section>
+      <form
+        action="submit_form.php"
+        method="post"
+        enctype="multipart/form-data"
+      >
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="track">Select your track:</label>
+        <select id="track" name="track" required>
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+        </select>
+
+        <label for="file">Upload a file:</label>
+        <input type="file" id="file" name="file" accept=".pdf, image/*" />
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Notable Programming Languages</h2>
+
+      <table>
+        <tr>
+          <th>Programming Language</th>
+          <th>Primary Use</th>
+          <th>Year of Initial Release</th>
+          <th>Notable Features</th>
+        </tr>
+        <tr>
+          <td>Python</td>
+          <td>General-purpose</td>
+          <td>1991</td>
+          <td>Readability, Extensive Libraries, Versatility</td>
+        </tr>
+        <tr>
+          <td>JavaScript</td>
+          <td>Frontend and Backend</td>
+          <td>1995</td>
+          <td>Web Development, Asynchronous Programming, Interactivity</td>
+        </tr>
+        <tr>
+          <td>C</td>
+          <td>System Programming</td>
+          <td>1972</td>
+          <td>Efficiency, Low-level Manipulation, Portability</td>
+        </tr>
+        <tr>
+          <td>C++</td>
+          <td>General-purpose</td>
+          <td>1985</td>
+          <td>Object-Oriented Programming, Performance</td>
+        </tr>
+        <tr>
+          <td>Ruby</td>
+          <td>Web Development</td>
+          <td>1995</td>
+          <td>Concise Syntax, Rails Framework</td>
+        </tr>
+      </table>
+    </section>
+  </body>
+</html>
